@@ -10,7 +10,7 @@ import java.io.File;
 
 public class YahooSearchTest {
     private WebDriver ydriver;
-
+//test NG annotation
     @BeforeTest
     public void setupDriver(){
 //C:\Users\kpalaniswamy\IdeaProjects\Webdriverbootcamp\src\test\resource\geckodriver.exe
