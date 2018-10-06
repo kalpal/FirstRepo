@@ -13,6 +13,7 @@ public class YahooSearchTest {
 
     @BeforeTest
     public void setupDriver(){
+	//Setting up the driver
 //C:\Users\kpalaniswamy\IdeaProjects\Webdriverbootcamp\src\test\resource\geckodriver.exe
         File file = new File("src/test/resource");
         String path = file.getAbsolutePath();
