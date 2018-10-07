@@ -1,4 +1,4 @@
-package YahooSearch;
+testSearch_renamedpackage YahooSearch;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -21,7 +21,7 @@ public class YahooSearchTest {
         ydriver = new FirefoxDriver();
     }
     @Test
-    public void testSearch() throws Exception{
+    public void MYCOOLTEST() throws Exception{
         navigateToMainPage();
         typeRequestInSearchInput();
        /*submitSearch();
