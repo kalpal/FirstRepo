@@ -21,7 +21,7 @@ public class YahooSearchTest {
         ydriver = new FirefoxDriver();
     }
     @Test
-    public void MYCOOLTEST() throws Exception{
+    public void cooltest() throws Exception{
         navigateToMainPage();
         typeRequestInSearchInput();
        /*submitSearch();
