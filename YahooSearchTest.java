@@ -10,7 +10,7 @@ import java.io.File;
 
 public class YahooSearchTest {
     private WebDriver ydriver;
-
+//test NG annotation
     @BeforeTest
     public void setupDriver(){
 //C:\Users\kpalaniswamy\IdeaProjects\Webdriverbootcamp\src\test\resource\geckodriver.exe
@@ -20,8 +20,9 @@ public class YahooSearchTest {
         //System.out.println(path+"\\geckodriver.exe");
         ydriver = new FirefoxDriver();
     }
+
     @Test
-    public void cooltest() throws Exception{
+    public void testSearch_renamed() throws Exception{
         navigateToMainPage();
         typeRequestInSearchInput();
        /*submitSearch();
